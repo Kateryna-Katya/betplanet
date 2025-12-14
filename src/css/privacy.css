@@ -1,0 +1,73 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+.background {
+    background: #140000;
+    text-align: left;
+}
+
+.privacy-title {
+font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f1ab24;
+    text-shadow: 0 0 10px 0 #ff0200;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+.privacy-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.policy-subtitle {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.privacy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.privacy-list-two {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.privacy-underline {
+    text-decoration: underline;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 1439px) {
+    .privacy-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .privacy-title {
+        margin-top: 100px;
+    }
+}
