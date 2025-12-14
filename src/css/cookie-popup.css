@@ -1,0 +1,118 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    z-index: 1000;
+    padding: 20px 14px;
+    width: 335px;
+    height: 278px;
+    border: 1px solid #140101;
+    border-radius: 20px;
+border-radius: 20px;
+    fill: #140000;
+    stroke-width: 1px;
+    stroke: #fff;
+    box-shadow: 0 14px 42px 0 rgba(8, 15, 52, 0.06);
+    background: #140000;
+    text-align: center;
+    display: none;
+}
+
+.popup-close-button {
+    position: absolute;
+    background-color: inherit;
+    border: none;
+    top: 26px;
+    right: 28px;
+    margin-left: auto;
+}
+
+.cookie-class {
+
+    width: 256px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    width: 301px;
+    height: 54px;
+    margin: 37px auto 0;
+}
+
+.btn-accept {
+    border: none;
+box-shadow: 0 3px 12px 0 rgba(74, 58, 255, 0.18);
+    background: #fff;
+    border-radius: 56px;
+    min-width: 174px;
+    height: 54px;
+font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+    /* line-height: 18px; */
+    line-height: 1.125;
+    color: #140000;
+    box-sizing: border-box;
+}
+.mob-span{
+    display: none;
+}
+.btn-decline {
+    box-shadow: 0 4px 8px 0 rgba(74, 58, 255, 0.08);
+    background: #140000;
+    border-radius: 56px;
+    border: 1px solid #fff;
+   
+    width: 109px;
+    height: 54px;
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.125;
+    color: #fff;
+    box-sizing: border-box;
+
+}
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 56px 100px;
+        width: 1272px;
+        height: 164px;
+    }
+
+    .popup-close-button {
+        top: 78px;
+        right: 72px;
+    }
+
+    .cookie-class {
+        font-size: 18px;
+        width: 648px;
+        text-align: left;
+        margin: 0 20px;
+    }
+
+    .cookie-buttons {
+        flex-direction: row;
+        margin: -60px 0 0 700px;
+    }
+.mob-span{
+    display: inline;
+}
+    .btn-accept {
+        order: 1;
+    }
+
+    .btn-decline {
+        order: 2;
+    }
+}
