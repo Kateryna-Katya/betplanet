@@ -190,6 +190,9 @@
     margin-top: 12px;
     text-align: center;
 }
+.bonus-container{
+    padding-bottom: 60px;
+}
 @media only screen and (min-width: 1439px) {
   .bonus-section{
     background-image: url("/img/bonus/desk.png");
@@ -208,4 +211,64 @@
   .bonus-text{
     margin-top: 22px;
   }
+}
+.demo-section{
+    background-image: url("/img/demo/mob.png");
+        background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+}
+.ifram-wrapper {
+    position: relative;
+}
+
+.hidden-close-btn {
+    display: none;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.demo-container{
+    padding-top: 40px;
+}
+.demo-title{
+    margin-bottom: 22px;
+    line-height: 1.2;
+}
+.demo-text{
+    margin-top: 12px;
+}
+.demo-desk{
+    display: none;
+}
+@media only screen and (min-width: 1439px) {
+    .demo-section {
+        background-image: url("/img/demo/desk.png");
+    }
+    .demo-container{
+        padding-top: 50px;
+    }
+    .demo-title{
+        display: none;
+    }
+    .demo-desk{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+    }
+.demo-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+    .demo-text{
+        margin-top: 32px;
+     text-align: center;
+    }
 }

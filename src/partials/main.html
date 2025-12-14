@@ -107,7 +107,7 @@
     </div>
 </section>
 <section class="bonus-section" id="bonus">
-    <div class="container">
+    <div class="container bonus-container">
         <h2 class="bonus-title">Bonus<br class="bonus-desk"/> Symbol Rules</h2>
         <ul class="bonus-list">
             <li class="bonus-item">
@@ -127,5 +127,34 @@
             </li>
         </ul>
         <p class="bonus-text">When those markings line up just right, the altar reacts. Get more symbols and the portal opens wider.</p>
+    </div>
+</section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+        <h2 class="demo-title">Bonus<br class="bonus-desk" /> Symbol Rules</h2>
+        <img class="demo-desk" src="/img/demo/back.png" alt="">
+          <a class="demo-btn" href="#" data-game-url="https://run.evoplay.games/slot/evoplay/xdemon/?operator=250&session=10220783590&window=1&demo=1&s=b599a0c9e917b315d2290b81f8975e60"
+            target="gameIframe">
+            <picture>
+                <source srcset="
+                      /img/demo/demo-btn-desk.png 1x,
+                     /img/demo/demo-btn-desk@2x.png 2x
+                     " media="(min-width: 1439px)" />
+                <source srcset="
+                      /img/demo/demo-btn.png 1x,
+                     /img/demo/demo-btn@2x.png 2x
+                   " media="(max-width: 1438px)" />
+                <img class="demo-img" src="/img/demo/demo-btn.png" alt="Play Free" loading="lazy" />
+            </picture>
+        </a>
+        
+        <div class="ifram-wrapper">
+            <iframe id="gameIframe" style="display: none; width: 100%; height: 600px; border: none; margin-top: 20px;"></iframe>
+        
+            <button id="closeIframeBtn" aria-label="Close" class="hidden-close-btn">
+              <img src="/img/demo/menu.png" alt="Close">
+            </button>
+        </div>
+        <p class="demo-text">Step into the portal and face what hides inside.</p>
     </div>
 </section>
