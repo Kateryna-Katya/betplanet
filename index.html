@@ -2,55 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/betplanet/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/betplanet/favicon.png" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <title>betplanet</title>
     <script type="module" crossorigin src="/betplanet/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/betplanet/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/betplanet/assets/styles-C1NnstwS.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="hero-section" id="hero">
+    <div class="container">
+            <h1 class="visually-hidden">X-Demon</h1>
+            <picture>
+                <source srcset="/betplanet/assets/hero-desk-BVoo9jwP.png 1x, /betplanet/assets/hero-desk@2x-CYgItZlX.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/betplanet/assets/hero-mob-DGCeSXMf.png 1x, /betplanet/assets/hero-mob@2x-CbkvPtHN.png 2x" media="(max-width: 1438px)" />
+                <img class="hero-title-img" src="/betplanet/assets/hero-mob-DGCeSXMf.png" alt="Enter" loading="lazy" />
+            </picture>
+            <h2 class="hero-subtitle">Step Through the Portal. Fight Back the Dark.</h2>
+            <p class="hero-text">X-Demon pulls you into this old sanctuary where these massive stone guardians are barely keeping some ancient evil at
+            bay.</p>
+            <a class="hero-button" href="#demo">
+                <picture>
+                    <source srcset="/betplanet/assets/btn-desk-BnciYsbn.png 1x, /betplanet/assets/btn-desk@2x-BzlEcRMG.png 2x" media="(min-width: 1439px)" />
+                    <source srcset="/betplanet/assets/btn-mob-qJY5mZIc.png 1x, /betplanet/assets/btn-mob@2x-HFqniWYl.png 2x" media="(max-width: 1438px)" />
+                    <img class="hero-btn pulse" src="/betplanet/assets/btn-mob-qJY5mZIc.png" alt="Enter" loading="lazy" />
+                </picture>
+            </a>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
