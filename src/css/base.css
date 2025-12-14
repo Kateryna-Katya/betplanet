@@ -6,3 +6,12 @@ body{
     line-height: 1.625;
     color: #fff;
 }
+h2{
+  font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f1ab24;
+    text-shadow: 0 0 10px 0 #ff0200;
+}
