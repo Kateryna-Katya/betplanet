@@ -218,8 +218,51 @@
             background-position: top center;
             background-size: cover;
 }
-.ifram-wrapper {
+
+.demo-wrapper {
     position: relative;
+    width: 100%;
+    max-width: 1200px;
+    /* под твою картинку */
+    margin: 0 auto;
+}
+
+/* картинка */
+.demo-desk {
+    width: 100%;
+    display: block;
+}
+
+/* контейнер фрейма */
+.iframe-wrapper {
+    position: absolute;
+    top: 15%;
+    /* подгоняешь под экран в картинке */
+    left: 40%;
+    transform: translateX(-52%);
+    width: 70%;
+    /* размер iframe относительно картинки */
+    height: 55%;
+    z-index: 5;
+}
+
+/* сам iframe */
+#gameIframe {
+    width: 132%;
+    height: 142%;
+    border: none;
+    display: none;
+}
+
+/* кнопка закрытия */
+#closeIframeBtn {
+    position: absolute;
+    top: 10px;
+    right: -60px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 6;
 }
 
 .hidden-close-btn {
@@ -244,9 +287,7 @@
 .demo-text{
     margin-top: 12px;
 }
-.demo-desk{
-    display: none;
-}
+
 @media only screen and (min-width: 1439px) {
     .demo-section {
         background-image: url("/img/demo/desk.png");
